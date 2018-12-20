@@ -1,4 +1,4 @@
-# L.EasyButton - EDITED FROM : https://github.com/CliffCloud/Leaflet.EasyButton
+# L.EasyButton - Edited from : https://github.com/CliffCloud/Leaflet.EasyButton
 
 The easiest way to add buttons with Leaflet &mdash; so simple it fits in a gif:
 
@@ -8,12 +8,8 @@ The easiest way to add buttons with Leaflet &mdash; so simple it fits in a gif:
 
 -----------------------------------------------------------------------------------
 
-## Boilerplate Examples
-
-These use `YOUR_LEAFLET_MAP` as a placeholder;
-remember to change it to the variable name of your map.
-
 ##### Hello World - USAGE 
+```javascript
   var map = L.map('map').setView([35, -95], 4);
   var params = {
     layers: 'topp:states',
@@ -36,4 +32,4 @@ remember to change it to the variable name of your map.
   button.button.style.height = "50px";
   
   button.addTo( map );
-
+```
