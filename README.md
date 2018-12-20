@@ -1,13 +1,5 @@
 # L.EasyButton - Edited from : https://github.com/CliffCloud/Leaflet.EasyButton
-
-The easiest way to add buttons with Leaflet &mdash; so simple it fits in a gif:
-
-![running demo](https://raw.githubusercontent.com/CliffCloud/Leaflet.EasyButton/dist/img/alert_example.gif)
-
-### More [running examples and docs](http://danielmontague.com/projects/easyButton.js/v1/examples/)
-
 -----------------------------------------------------------------------------------
-
 ##### Hello World - USAGE 
 ```javascript
   var map = L.map('map').setView([35, -95], 4);
